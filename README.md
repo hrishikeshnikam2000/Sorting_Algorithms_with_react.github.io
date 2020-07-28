@@ -16,7 +16,9 @@ To visit the actual output, click on this link:- https://hrishikeshnikam2000.git
    have been visualized.
  
  
- A random array of numbers is generated and then they are sorted into ascending order by using various sorting method.
+ 
+ 
+A random array of numbers is generated and then they are sorted into ascending order by using various sorting method.
  
 webpage is made using React.js, I am new to React and it was Actually amazing to use React.js.
 Will try to make more projects in React.js.
