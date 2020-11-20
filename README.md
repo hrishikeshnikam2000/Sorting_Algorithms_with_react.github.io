@@ -1,8 +1,8 @@
 # Sorting_Algorithms_with_React
 
-ORIGINAL WORK BY Clément Mihailescu, his youtube tutorial :- https://www.youtube.com/watch?v=pFXYym4Wbkc&t=1925s
-
 To visit the actual output, click on this link:-https://hrishikeshnikam2000.github.io/Sorting_Algorithms_with_react.github.io/
+
+ORIGINAL WORK BY Clément Mihailescu, his youtube tutorial :- https://www.youtube.com/watch?v=pFXYym4Wbkc&t=1925s
 
 4 Algorithms, namely :-
   
