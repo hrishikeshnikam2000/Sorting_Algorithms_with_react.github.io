@@ -2,12 +2,40 @@
   width: 100%;
   height: 100%;
   background-color: rgb(230, 230, 230);
-  text-align: center;
+  /* text-align: center; Removed for Flexbox */
+  display: flex; /* Enable Flexbox */
+  flex-wrap: wrap; /* Allow elements to wrap */
+  justify-content: center; /* Center elements horizontally */
+  align-items: flex-end; /* Align bars at the bottom */
+  padding: 10px; /* Add some padding */
+  box-sizing: border-box; /* Ensure padding doesn't add to total width/height */
 }
 
 .arrayElement {
   padding-top: 7px;
   font-family: sans-serif;
   font-weight: 700;
-  display: inline-block;
+  /* display: inline-block; Removed as it's a flex item */
+  margin: 0 2px; /* Add small horizontal margin between elements */
+  text-align: center; /* Center the number inside the element */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .arrayElement {
+    font-size: 0.9em; /* Reduce font size slightly */
+    padding-top: 5px; /* Adjust padding */
+    margin: 0 1px; /* Reduce margin */
+  }
+}
+
+@media (max-width: 480px) {
+  #bodyContainer {
+    padding: 5px; /* Reduce padding for very small screens */
+  }
+  .arrayElement {
+    font-size: 0.8em; /* Further reduce font size */
+    padding-top: 3px; /* Further adjust padding */
+    margin: 0 1px; /* Keep minimal margin */
+  }
 }
